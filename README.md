@@ -29,6 +29,22 @@ cd ..
 catkin_make
 ```
 
+>__WARNING:__
+After executing the following lines:
+```
+cd ..
+source devel/setup.bash
+roslaunch r2_gazebo r2_gazebo.launch 
+```
+The following errors are generated:
+```
+RLException: Invalid <param> tag: Cannot load command parameter [robot_description]: no such command [['/opt/ros/noetic/share/xacro/xacro.py', '~/chessbot/src/nasa_r2_simulator/r2_gazebo/robots/r2.sim.urdf.xacro']]. 
+
+Param xml is <param name="robot_description" command="$(find xacro)/xacro.py '$(find r2_gazebo)/robots/r2.sim.urdf.xacro'"/>
+The traceback for the exception was written to the log file
+```
+This looks to be related to a missing parameter that is determined by a sourceforge.net page no longer in use.
+
 ## Links
 * https://github.com/osrf/rosbook/issues/24
 * https://github.com/plskeggs/nasa_r2_simulator
