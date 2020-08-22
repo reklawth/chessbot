@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/thwalker/code/chessbot/devel/include",
+                "/opt/ros/noetic/include",
+                "/home/thwalker/code/chessbot/src/nasa_r2_simulator/gazebo_gripper/include",
+                "/home/thwalker/code/chessbot/src/nasa_r2_simulator/gazebo_interface/include",
+                "/home/thwalker/code/chessbot/src/nasa_r2_simulator/gazebo_taskboard/include",
+                "/home/thwalker/code/chessbot/src/nasa_r2_common/nasa_r2_common_msgs/include",
+                "/home/thwalker/code/chessbot/src/nasa_r2_simulator/r2_controllers_ros/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
